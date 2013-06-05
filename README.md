@@ -23,7 +23,7 @@ The result will be a message in your log file along the lines of:
 
     Mon Oct 08 14:22:29 +1000 2007 Destroyed Weblog ID #1!
 
-[More information on how to use the logger is at](http://www.ruby-doc.org/core/)
+[More information on how to use the logger is at http://www.ruby-doc.org/core/](http://www.ruby-doc.org/core/)
 
 
 # Debugger
@@ -84,7 +84,7 @@ To reload your controllers and models after launching the console run
 <tt>reload!</tt>
 
 More information about irb can be found at:
-link:http://www.rubycentral.org/pickaxe/irb.html
+[http://www.rubycentral.org/pickaxe/irb.html](http://www.rubycentral.org/pickaxe/irb.html)
 
 
 # dbconsole
