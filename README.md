@@ -3,7 +3,7 @@
 Sometimes your application goes wrong. Fortunately there are a lot of tools that
 will help you debug it and get it back on the rails.
 
-First area to check is the application log files. Have "tail -f" commands
+First area to check is the application log files. Have `tail -f` commands
 running on the server.log and development.log. Rails will automatically display
 debugging and runtime information to these files. Debugging info will also be
 shown in the browser on requests from 127.0.0.1.
@@ -59,7 +59,7 @@ with a IRB prompt in the server window. Here you can do things like:
   >> f.
   Display all 152 possibilities? (y or n)
 
-Finally, when you're ready to resume execution, you can enter "cont".
+Finally, when you're ready to resume execution, you can enter `cont`.
 
 
 # Console
