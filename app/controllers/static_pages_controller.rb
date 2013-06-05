@@ -12,4 +12,7 @@ class StaticPagesController < ApplicationController
       format.html
     end
   end
+
+  def about
+  end
 end
