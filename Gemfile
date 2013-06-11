@@ -8,6 +8,9 @@ gem 'rails', '3.2.13'
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.11.0'
+  gem 'debugger'
+  gem 'wirble'
+  gem 'interactive_editor'
 end
 
 
@@ -47,4 +50,3 @@ end
 # gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'

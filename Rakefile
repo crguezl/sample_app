@@ -5,3 +5,8 @@
 require File.expand_path('../config/application', __FILE__)
 
 SampleApp::Application.load_tasks
+
+desc "run rspec tests in requests/static_pages_spec.rb"
+task :reqtest do
+  sh "bundle exec rspec spec/requests/static_pages_spec.rb"
+end
